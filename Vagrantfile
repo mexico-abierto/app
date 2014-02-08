@@ -14,7 +14,7 @@ PRIVATE_NETWORK = ENV['PRIVATE_NETWORK']
 # Boolean that forwards the Docker dynamic ports 49000-49900
 # See http://docs.docker.io/en/latest/use/port_redirection/ for more
 # $ FORWARD_DOCKER_PORTS=1 vagrant [up|reload]
-FORWARD_DOCKER_PORTS = ENV['FORWARD_DOCKER_PORTS']
+FORWARD_DOCKER_PORTS = 1 # ENV['FORWARD_DOCKER_PORTS']
 VAGRANT_RAM = ENV['VAGRANT_RAM'] || 512
 VAGRANT_CORES = ENV['VAGRANT_CORES'] || 1
 
