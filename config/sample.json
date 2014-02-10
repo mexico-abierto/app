@@ -3,7 +3,7 @@
   "host": "localhost",
   "privatePort": 3000,
   "publicPort": 3000,
-  "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
+  "mongoUrl": "mongodb://localhost/MexicoAbierto-dev",
   "client": [ "protocol", "host", "publicPort", "env", "logo", "favicon", "organization name", "organization url", "google analytics tracking id" ],
   "auth": {
     "basic": {
