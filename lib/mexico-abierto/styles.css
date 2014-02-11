@@ -1,4 +1,5 @@
-/*México-abierto styles go here*/
-header.app-header {
-	background: black;
+/* México-abierto styles go here */
+#mx_a header.app-header {
+  background-color: black;
 }
+
