@@ -169,8 +169,6 @@ Vagrant::VERSION >= "1.1.0" and Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--memory", VAGRANT_RAM]
     vb.customize ["modifyvm", :id, "--cpus", VAGRANT_CORES]
   end
-
-  config.vm.provision "shell", inline: "docker pull rodowi/dos; docker run -p 49160:3000 -d rodowi/dos"
 end
 
 # If this is a version 1 config, virtualbox is the only option.  A version 2
