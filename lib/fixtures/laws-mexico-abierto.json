@@ -18,27 +18,17 @@
       {
           "clauseId": "3"
         , "order": 2
-        , "text": "Incorpórase al Código de Planeamiento Urbano, en el parágrafo 5.5.2.16, Plancheta de Zoniﬁcacién 16, artículo 5.5.2 Zonificación del Capítulo 5.5 Normas Especiales de la Sección 5 Zonificación en Distritos, las presentes normas y su Anexo I, para el inmueble delimitado por el Polígono A-B-H-E-F-G-A correspondiente a la Fracción J de la Manzana 39B, de la Circunscripción 5, Sección 57."
+        , "text": "El objetivo de este documento es contar con una visión enfocada específicamente en facilitar el crecimiento económico, fortalecer la competitividad y promover la innovación en nuestro país; y que al mismo tiempo sea capaz de crear valor social, mejorar la prestación de servicios gubernamentales, incrementar la transparencia y rendición de cuentas, y conducir a mayor eficiencia gubernamental; impactando en una mejor gobernanza en el país."
       },
       {
           "clauseId": "4"
         , "order": 3
-        , "text": "Apruébase el Plano de Zoniﬁcación que como Anexo I forms parte integrante de la presente Ley, para el inmueble delimitado por el Polígono A-B-H-E-F-G-A correspondiente a la Fracción J de la Manzana 39B, de la Circunscripción 5, Sección 57."
+        , "text": "La presente Política busca la simplificación y cambio de algunos procesos de generación y administración de los datos en el gobierno para hacerlos Datos Abiertos. Es necesario que la política se entienda como parte de una Iniciativa de Datos Abiertos más amplia [se puede encontrar en <a href=\"www.datos.gob.mx\">www.datos.gob.mx</a>], que contempla acciones para crear un ecosistema que convierta al gobierno en un proveedor confiable de Datos Abiertos –mediante esta Política-, al tiempo que incentiva su demanda y capacidades de uso en todos los sectores de la población."
       },
       {
           "clauseId": "5"
         , "order": 4
-        , "text": "Encomiéndase al Poder Ejecutivo la adecuación de la Plancheta de Zoniﬁcación N° 16 do acuerdo a la desafectación y afectación de los artículos precedentes."
-      },
-      {
-          "clauseId": "6"
-        , "order": 5
-        , "text": "Comuníquese, etc."
-      },
-      {
-          "clauseId": "Anexo I"
-        , "order": 6
-        , "text": "<img src=\"https://s3.amazonaws.com/pdr-app/images/02513-J-13.png\"/>"
+        , "text": "A continuación se enumeran las concepciones más importantes de la Política Nacional de Datos Abiertos:<br><br><ul><li>Se han establecido mecanismos estratégicos, y funcionarios públicos responsables de gestionar y asegurar el cumplimiento de las medidas de Datos Abiertos. Los responsables de los Datos Abiertos serán designados de manera interna en cada una de las dependencias y entidades de gobierno, y de manera externa, en la Presidencia de la República, para asegurar la coordinación e implementación adecuada de esta Política.</li><li>Asegurar que los Datos Abiertos sean el estándar para toda la información pública gubernamental, para lo cual se seguirán los principios básicos para los Datos Abiertos reconocidos a nivel internacional, y se requerirá la revisión y cambio de las normas internas de las dependencias y entidades.</li><li>La Política y su Guía de Implementación dan a conocer los objetivos y procesos que seguirán las dependencias y entidades de gobierno para tener un inventario total de bases de datos, categorizarlos entre datos públicos y privados, priorizarlos, tener estándares de metadatos y formatos adecuados, crear automáticamente un Catálogo de Datos Públicos y procesos de actualización y evaluación.</li><li>La liberación gradual de bases de datos se llevará de acuerdo con lineamientos de priorización, que tienen como fin el cumplimiento de las grandes metas del Plan Nacional de Desarrollo 2013-2018, de los objetivos de las propias dependencias y entidades de gobierno y de la demanda ciudadana.</li><li>La Política Nacional de Datos Abiertos contiene preceptos vinculantes a efecto de que los datos públicos en posesión del Ejecutivo Federal, generados por contratos, sean de carácter abierto y que los sistemas de gobierno aseguren la interoperabilidad de datos y su generación en formato abierto.</li><li>Se establece la necesidad de contar con una licencia específica para el uso de datos; la Licencia de Datos Abiertos MX seguirá las mejores prácticas para asegurar el libre uso, reúso y redistribución de datos, sólo con el requisito de atribución, es decir, señalar la fuente original de la información.</li><li>La participación ciudadana y el seguimiento de mejores prácticas para incentivar el uso de Datos Abiertos, así como el fomento a la capacitación de los sectores interesados de cada entidad, son temas prioritarios para esta Política.</li><li>La Coordinación de Estrategia Digital Nacional será la responsable de crear y administrar un portal de Datos Abiertos, que por sí mismo, será una herramienta de promoción de Datos Abiertos y que indexará todos los datos de la Administración Pública Federal, y facilitará la publicación de datos de otros poderes, estados, municipios y organismos autónomos interesados.</li><li>La protección de datos personales se aborda específicamente para asegurar que cualquier proceso implementado en esta Política salvaguarde la privacidad de los ciudadanos y asegure la confidencialidad de los datos según la legislación mexicana.</li><li>Finalmente, se ha decidido realizar acciones inmediatas, para demostrar la fuerza del compromiso del Gobierno de la República en los Datos Abiertos y ayudar a que esta iniciativa se traduzca en resultados.</li></ul>"
       }
     ]
 }
