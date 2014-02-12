@@ -1,7 +1,6 @@
 - var positives = proposal.upvotes || []
 - var negatives = proposal.downvotes || []
-- var neutrals = proposal.abstentions || []
-- var census = neutrals.concat(negatives).concat(positives) || []
+- var census = negatives.concat(positives) || []
 
 - var participants = proposal.participants || []
 
@@ -17,8 +16,6 @@
           .alert.alert-success #{t('You voted Yea')}.
         - else if (~negatives.indexOf(citizen.id))
           .alert.alert-danger #{t('You voted Nay')}.
-        - else if (~neutrals.indexOf(citizen.id))
-          .alert.alert-info #{t('You abstained from voting')}.
 
         a.meta-item.change-vote(href="#", class= voted && !closed ? '' : 'hide')
           i.icon-refresh
@@ -30,9 +27,6 @@
           a.vote-option.vote-yes(href="#", data-proposal=proposal.id)
             i.flaticon.solid.thumbs-up-1
             span= t('Yea')
-          a.vote-option.vote-abstain(href="#", data-proposal=proposal.id)
-            i.flaticon.solid.pause
-            span= t('Abstain')
           a.vote-option.vote-no(href="#", data-proposal=proposal.id)
             i.flaticon.solid.thumbs-up-1
             span= t('Nay')
@@ -78,12 +72,3 @@
               - var s = 1 === negatives.length ? '' : 's'
                 span.percent #{width} % 
                 span.votes #{negatives.length} #{t('vote') + s}
-
-          - if (neutrals.length)
-            .votes-neutral.votes-results
-              h5= t('Abstain')
-              - var width = census.length ? (neutrals.length/census.length)*100 : 0;
-              - var width = Math.round(width*100)/100
-              - var s = 1 === neutrals.length ? '' : 's'
-                span.percent #{width} % 
-                span.votes #{neutrals.length} #{t('vote') + s}
