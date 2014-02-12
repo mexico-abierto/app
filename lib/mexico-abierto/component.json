@@ -1,0 +1,11 @@
+{
+  "name": "mexico-abierto",
+  "description": "custom styles for mexico-abierto",
+  "dependencies": { },
+  "local": [ ],
+  "scripts": [ ],
+  "templates": [ ],
+  "styles": [ "styles.css" ],
+  "images": [ ],
+  "fonts": [ ]
+}

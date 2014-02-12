@@ -56,7 +56,7 @@ html(lang='en')
         location.hash = "";
         location.href=location.href.substring(0,location.href.length-3);
       }
-  body
+  body#mx_a
 
     #snap-content.snap-content
       // Start of `Page Content`
@@ -89,9 +89,13 @@ html(lang='en')
             a(href='/signup').login.pull-right
               i.icon-user
               span= t('Signup')
-          a.login.pull-left(href=config("organization url"), target="_blank")
+          a.login.pull-left(href='/')
+            span La Política de Datos Abiertos
+          a.login.pull-left(href='http://www.datos.gob.mx/#antecedentes', target="_blank")
+            span Antecedentes
+          a.login.pull-left(href=config("organization url"), target="_blank").hidden
             span= config('organization name')
-          a.login.pull-left(href="#", id="feedback")
+          a.login.pull-left(href="#", id="feedback").hidden
             span= t('Feedback')
       section#content.site-content
       section#browser.site-content
