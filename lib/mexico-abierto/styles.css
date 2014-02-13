@@ -12,3 +12,18 @@
   display: none;
 }
 
+#filter-container {
+  display: none;
+}
+
+#list-container {
+  position: absolute;
+  top: 154px;
+  width: 100%;
+}
+
+aside.nav-proposal .navlist li a {
+  min-height: inherit;
+  padding: 20px;
+}
+
