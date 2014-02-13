@@ -3,6 +3,7 @@
     "lawId": "01-introducción"
   , "tag": "datos-abiertos"
   , "mediaTitle": "Introducción"
+  , "source": "http://bit.ly/pnda-borrador"
   , "closingAt": "2014-02-28T23:59:59.001Z"
   , "summary": "<h1>Introducción</h1><p>Lograr un Gobierno Abierto requiere de un proceso de compromiso, colaboración y corresponsabilidad permanente y sostenible por parte del gobierno y todos los sectores de la sociedad.</p><p>En el Gobierno de la República nos comprometemos a hacer más transparentes la formulación de políticas y la toma de decisiones mediante el establecimiento y el uso de vías para solicitar la opinión del público.</p><p>Por lo anterior es que abrimos la Política Nacional de Datos Abiertos para comentarios públicos, proceso que estará abierto hasta el 28 de febrero de 2014. Los comentarios serán analizados por un Consejo Consultivo de Datos Abiertos, el cual está compuesto por representantes del sector emprendedor, académico y de organizaciones civiles, y que con independencia recomendará la inclusión de aquellos comentarios que incrementen el valor de la Política Nacional de Datos Abiertos y puedan ser llevados a cabo de acuerdo con la normatividad vigente.</p><p>Este proceso será completado por foros de consulta ciudadana que se llevarán a cabo en diversas instituciones académicas del país, y cuyas fechas se anunciarán en este mismo portal.</p>"
   , "clauses": []
@@ -11,6 +12,7 @@
     "lawId": "02-objetivos"
   , "tag": "datos-abiertos"
   , "mediaTitle": "Objetivos"
+  , "source": "http://bit.ly/pnda-borrador"
   , "closingAt": "2014-02-28T23:59:59.001Z"
   , "summary": "<h1>Objetivos de la Política Nacional de Datos Abiertos</h1><p>Las bases de datos con carácter público que están en posesión del gobierno son activos prioritarios que cuando son publicados en formatos abiertos, pueden ser utilizados, reutilizados y redistribuidos para crear valor y beneficios en todos los sectores de la sociedad.</p><p>El objetivo de la Política Nacional de Datos Abiertos es convertirse en una herramienta enfocada en facilitar el crecimiento económico, fortalecer la competitividad y promover la innovación; y que al mismo tiempo pueda crear valor social, mejorar la prestación de servicios gubernamentales, incrementar la transparencia y rendición de cuentas, y conducir a mayor eficiencia gubernamental; impactando en una mejor gobernanza para el país.</p>"
   , "clauses": []
@@ -19,6 +21,7 @@
     "lawId": "03-datos-abiertos"
   , "tag": "datos-abiertos"
   , "mediaTitle": "Datos Abiertos"
+  , "source": "http://bit.ly/pnda-borrador"
   , "closingAt": "2014-02-28T23:59:59.001Z"
   , "summary": "<h1>Definición de Datos Abiertos</h1><p>Con la publicación de esta Política, los Datos Abiertos serán el estándar para toda la información, con carácter público, que genere el gobierno. Para lograrlo, se seguirán los principios básicos para los Datos Abiertos reconocidos a nivel internacional, y se requerirá la revisión y cambio de las normas internas de las dependencias y entidades para cumplirlos.</p><p>Para ser considerados Datos Abiertos, las bases de datos deberán contar con las siguientes características mínimas:</p><img src='http://mexico-abierto.github.io/iniciativa-datos-abiertos/assets/img/diagramaPNDA.png' />"
   , "clauses": []
@@ -27,6 +30,7 @@
     "lawId": "04-arquitectura-institucional"
   , "tag": "datos-abiertos"
   , "mediaTitle": "Arquitectura institucional"
+  , "source": "http://bit.ly/pnda-borrador"
   , "closingAt": "2014-02-28T23:59:59.001Z"
   , "summary": "<h1>Arquitectura institucional</h1><p>Se han establecido funcionarios responsables de implementar los Datos Abiertos en cada dependencia y entidad de la Administración Pública Federal. Estos serán apoyados por unidades de expertos en asuntos legales, seguridad y arquitectura de información, para asegurar que la Política sea ejecutada de manera adecuada.</p><p>Del mismo modo, existen mecanismos de cooperación y coordinación interinstitucional dentro del gobierno y con diferentes sectores de la sociedad, con el objetivo de trabajar de manera conjunta, co-participativa y co-responsable en la elaboración, implementación y evaluación de la Política de Datos Abiertos.</p><img src='http://mexico-abierto.github.io/iniciativa-datos-abiertos/assets/img/mecanismos2.png' />"
   , "clauses": []
@@ -35,6 +39,7 @@
     "lawId": "05-publicación-y-privacidad"
   , "tag": "datos-abiertos"
   , "mediaTitle": "Publicación y privacidad"
+  , "source": "http://bit.ly/pnda-borrador"
   , "closingAt": "2014-02-28T23:59:59.001Z"
   , "summary": "<h1>Proceso de publicación y protección a los datos personales</h1><p>El proceso de apertura tiene 5 pasos que ayudarán a las dependencias y entidades a llegar a los datos Abiertos de manera sencilla e intuitiva:</p><ol><li>Priorizar las bases de datos que se publicarán, para que tengan alta demanda de la ciudadanía, valor para su uso y existan de tal manera que permitan su liberación.</li><li>Calendarizar la liberación de bases de datos en cada entidad o dependencia.</li><li>Definir proyectos, dentro y fuera del gobierno, para el uso, reuso y redistribución de Datos Abiertos.</li><li>Crear un inventario, construido de manera gradual y que llegue a ser exhaustivo, de todas las bases de datos que el gobierno tenga en su responsabilidad.</li><li>Publicar las bases de datos, asegurando que éstas se encuentren en formatos y calidad necesarios para su uso.</li></ol><p>Durante todo el proceso de preparación y publicación de Datos Abiertos, se implementarán mecanismos diseñados para salvaguardar la privacidad de los ciudadanos y asegurar la confidencialidad de los datos según la legislación en la materia.</p>"
   , "clauses": []
@@ -43,6 +48,7 @@
     "lawId": "06-fomento-al-uso"
   , "tag": "datos-abiertos"
   , "mediaTitle": "Fomento al uso"
+  , "source": "http://bit.ly/pnda-borrador"
   , "closingAt": "2014-02-28T23:59:59.001Z"
   , "summary": "<h1>Mecanismos de fomento al uso, reuso y redistribución</h1><p>Los Datos Abiertos serán publicados en el portal datos.gob.mx. Este portal contará con mecanismos de visualización para facilitar la comprensión y uso de los datos, y contendrá mecanismos de consulta y respuesta ciudadana, para identificar los datos con mayor valor para la sociedad.</p><p>Las dependencias y entidades definirán proyectos de capacitación y uso de Datos Abiertos, y podrán trabajar de manera conjunta con los sectores interesados de la sociedad para llevar a cabo acciones de co participación y responsabilidad conjunta.</p><p>Para fomentar lo anterior, las dependencias y entidades podrán utilizar los montos de sus presupuestos enfocadas a innovación, uso de tecnologías o capacitación de recursos humanos; y podrán buscar recursos de fondos, organizaciones u otros actores relevantes para fomentar estas acciones, para beneficio de todos.</p>"
   , "clauses": []
