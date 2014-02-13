@@ -27,3 +27,13 @@ aside.nav-proposal .navlist li a {
   padding: 20px;
 }
 
+header.app-header h1 {
+  margin: 0;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+header.app-header h1 .logo {
+  height: 30px;
+}
+
