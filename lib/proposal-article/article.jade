@@ -1,10 +1,10 @@
 - var closed = proposal.closed//proposal.closingAt && +new Date(proposal.closingAt) < Date.now()
 .inner-container
-  div.alert.alert-warning.alert-dismissable.system-alert
+  div.alert.alert-dismissable.system-alert
     button(type="button", class="close", data-dismiss="alert", aria-hidden="true")
     span #{t('All data will expire on December 10, 2013')}&nbsp;&nbsp;
-    a.alert-link(href="http://wiki.partidodelared.org/index.php/Versi%C3%B3n_de_prueba_de_Democracia_OS", target="_blank") #{t('Why?')}
-  
+    a.alert-link(href="http://bit.ly/pnda-borrador", target="_blank") #{t('Why?')}
+
 
   article.proposal
     //- .meta-information
@@ -32,8 +32,6 @@
         - else
           span.meta-item.meta-timeago= t('Unknown closing date')
 
-    h1=proposal.mediaTitle
-    h3=proposal.title 
     .entry-content
       p.summary!=proposal.summary
 

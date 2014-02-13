@@ -1,5 +1,82 @@
 /* México-abierto styles go here */
+
+/* Navbar */
+
 #mx_a header.app-header {
   background-color: black;
+}
+
+header.app-header h1 {
+  margin: 0;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+header.app-header h1 .logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+#mx_a #logo {
+  font-family: "Abel", "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+/* Sidebar */
+
+#mx_a .entry-tag,
+#mx_a .item-tag {
+  display: none;
+}
+
+#filter-container {
+  display: none;
+}
+
+#list-container {
+  position: absolute;
+  top: 154px;
+  width: 100%;
+}
+
+aside.nav-proposal .navlist li {
+  border: 0;
+}
+
+aside.nav-proposal .navlist li a {
+  min-height: inherit;
+  padding: 20px;
+}
+
+/* Content */
+
+#mx_a,
+#mx_a h1,
+#mx_a h2,
+#mx_a h3,
+#mx_a h4,
+#mx_a h5 {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+
+.alert {
+  background-color: #21ccca;
+  border-radius: 0;
+}
+
+.dropdown-department {
+  background-color: #bdc3c7;
+}
+
+body {
+  color: #4d4d4d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #21ccca;
+}
+
+#mx_a .entry-content img {
+  width: 100%;
 }
 
