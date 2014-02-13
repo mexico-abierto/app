@@ -35,5 +35,20 @@ header.app-header h1 {
 
 header.app-header h1 .logo {
   height: 30px;
+  margin-right: 20px;
+}
+
+#mx_a,
+#mx_a h1,
+#mx_a h2,
+#mx_a h3,
+#mx_a h4,
+#mx_a h5 {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+
+#mx_a #logo {
+  font-family: "Abel", "Helvetica", sans-serif;
+  font-size: 16px;
 }
 
