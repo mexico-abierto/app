@@ -761,11 +761,6 @@ article.proposal .share-links a.google-plus:hover {
 .forgot-container form .forgot a:hover {
   color: #2980b9;
 }
-/* Uservoice feedback button
--------------------------------------------------- */
-.uv-icon.uv-bottom-right {
-  right: 25px !important;
-}
 /* Responsive
 -------------------------------------------------- */
 @media screen and (max-width: 1100px) {
