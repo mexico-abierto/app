@@ -64,6 +64,10 @@ aside.nav-proposal .navlist li a {
   border-radius: 0;
 }
 
+.alert-link {
+  color: #00FFFF;
+}
+
 .dropdown-department {
   background-color: #bdc3c7;
 }
