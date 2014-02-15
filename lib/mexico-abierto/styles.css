@@ -84,3 +84,27 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+/* Signin & Signup */
+
+.signup a {
+  color: #32F0E5;
+}
+
+.form input {
+  border-radius: 0;
+}
+
+.form input[type="submit"] {
+  background-color: #21CCCA;
+  border-color: inherit;
+  font-weight: normal;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #333333;
+}
+
+.signin-container, .signup-container {
+  padding-top: 20px;
+}
+
