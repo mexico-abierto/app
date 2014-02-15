@@ -64,6 +64,10 @@ aside.nav-proposal .navlist li a {
   border-radius: 0;
 }
 
+.alert-link {
+  color: #00FFFF;
+}
+
 .dropdown-department {
   background-color: #bdc3c7;
 }
@@ -78,5 +82,29 @@ h1, h2, h3, h4, h5, h6 {
 
 #mx_a .entry-content img {
   width: 100%;
+}
+
+/* Signin & Signup */
+
+.signup a {
+  color: #32F0E5;
+}
+
+.form input {
+  border-radius: 0;
+}
+
+.form input[type="submit"] {
+  background-color: #21CCCA;
+  border-color: inherit;
+  font-weight: normal;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #333333;
+}
+
+.signin-container, .signup-container {
+  padding-top: 20px;
 }
 
