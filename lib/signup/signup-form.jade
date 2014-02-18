@@ -5,19 +5,14 @@
     form.form(action="/signup", method="post", role="form")
       ul.form-errors
       .form-group
-        label= t('Email')
         input.form-control(type='email', name='email', tabindex=1, placeholder=t('example@email.com'))
       .form-group
-        label #{t('Your firstname')}
         input.form-control(type='text', id="firstName", name='firstName', tabindex=2, placeholder=t('Firstname'))
       .form-group
-        label #{t('Your lastname')}
         input.form-control(type='text', id="lastName", name='lastName', tabindex=3, placeholder=t('Lastname'))
       .form-group
-        label= t('Password')
         input.form-control(type='password', name='password', tabindex=4, placeholder=t('Password'))
       .form-group
-        label= t('Re-type password')
         input.form-control(type='password', name='re_password', tabindex=5, placeholder=t('Repeat Password'))
       .form-group: input.btn.btn-success.btn-block.btn-lg(type='submit', tabindex=6, value=t('Signup now!'))
   #signup-message.hide
