@@ -108,3 +108,25 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 20px;
 }
 
+#recaptcha_image{
+  margin-bottom: 16px;
+}
+
+.recaptcha_controls {
+  padding-top: 16px;
+  text-align: right;
+}
+
+.recaptcha_controls li {
+  display: inline;
+  list-style-type: none;
+}
+
+.recaptcha_controls i {
+  color: #21CCCA;
+}
+
+.flaticon-arrows64:before {
+  font-size: 24px;
+}
+
