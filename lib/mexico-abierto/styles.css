@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #21ccca;
 }
 
-#mx_a .entry-content img {
+#mx_a .entry-content img, video {
   width: 100%;
 }
 
