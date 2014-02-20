@@ -1,5 +1,15 @@
 /* México-abierto styles go here */
 
+/* Main style */
+
+a {
+  color: #32F0E5;
+}
+
+a:hover, a:focus {
+  color: #333333;
+}
+
 /* Navbar */
 
 #mx_a header.app-header {
@@ -96,10 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Signin & Signup */
 
-.signup a {
-  color: #32F0E5;
-}
-
 .form input {
   border-radius: 0;
 }
@@ -134,6 +140,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .recaptcha_controls i {
   color: #21CCCA;
+}
+
+.recaptcha_controls i:hover {
+  color: #333333;
 }
 
 .flaticon-arrows64:before {
