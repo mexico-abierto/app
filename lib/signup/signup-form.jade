@@ -12,6 +12,22 @@
         input.form-control(type='password', name='password', tabindex=3, placeholder=t('Password'))
       .form-group
         #captcha-container
+        #recaptcha_widget
+          #recaptcha_image
+          input.form-control#recaptcha_response_field(type="text", name="recaptcha_response_field", tabindex=4, placeholder="Ingresa las palabras")
+          ul.recaptcha_controls
+            li#recaptcha-reload
+              a(href="javascript:Recaptcha.reload()")
+                i.flaticon-arrows64
+            li.recaptcha_only_if_image
+              a(href="javascript:Recaptcha.switch_type('audio')")
+                i.flaticon-raise
+            li.recaptcha_only_if_audio
+              a(href="javascript:Recaptcha.switch_type('image')")
+                i.flaticon-typografic
+            li#recaptcha-help
+              a(href="javascript:Recaptcha.showhelp()")
+                i.flaticon-help
       .form-group: input.btn.btn-success.btn-block.btn-lg(type='submit', tabindex=5, value=t('Signup now!'))
   //- #signup-message.hide
   //-   h1 Welcome
