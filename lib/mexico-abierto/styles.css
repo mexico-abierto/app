@@ -30,14 +30,24 @@ header.app-header h1 .logo {
 }
 
 #filter-container {
-  display: none;
+  visibility: hidden;
 }
 
 #list-container {
-  position: absolute;
-  top: 154px;
   width: 100%;
 }
+
+#footer-container {
+  padding: 100px 20px 40px 20px;
+}
+
+#footer-container div {
+  font-size: 11px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+#footer-container img { width: 60% }
 
 aside.nav-proposal .navlist li {
   border: 0;
