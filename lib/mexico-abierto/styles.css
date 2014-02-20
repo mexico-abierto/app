@@ -70,6 +70,10 @@ aside.nav-proposal .navlist li a {
 
 /* Content */
 
+.small-container {
+  max-width: 320px;
+}
+
 #mx_a,
 #mx_a h1,
 #mx_a h2,
