@@ -34,10 +34,20 @@ header.app-header h1 .logo {
 }
 
 #list-container {
-  position: absolute;
-  top: 154px;
   width: 100%;
 }
+
+#footer-container {
+  padding: 20px;
+}
+
+#footer-container div {
+  font-size: 11px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+#footer-container img { width: 60% }
 
 aside.nav-proposal .navlist li {
   border: 0;
@@ -128,5 +138,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .flaticon-arrows64:before {
   font-size: 24px;
+}
+
+/* Responsive design */
+
+@media screen and (min-width: 700px) {
+  #list-container {
+    margin: 115px 0;
+  }
 }
 
