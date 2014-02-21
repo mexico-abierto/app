@@ -114,21 +114,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Signin & Signup */
 
-.form input {
+form input, .form-control, .btn {
   border-radius: 0;
 }
 
-.form input[type="submit"] {
+form input[type="submit"] {
   background-color: #21CCCA;
   border-color: inherit;
   font-weight: normal;
 }
 
-.form input[type="submit"]:hover {
+form input[type="submit"]:focus,
+form input[type="submit"]:hover {
   background-color: #333333;
 }
 
-.signin-container, .signup-container {
+.form-container {
   padding-top: 20px;
 }
 
