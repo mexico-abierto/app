@@ -6,8 +6,13 @@ a {
   color: #32F0E5;
 }
 
-a:hover, a:focus {
+a:hover, a:focus,
+a.long-link:hover, a.long-link:focus {
   color: #333333;
+}
+
+a.long-link {
+  color: #21CCCA;
 }
 
 /* Navbar */
@@ -131,6 +136,10 @@ form input[type="submit"]:hover {
 
 .form-container {
   padding-top: 20px;
+}
+
+.legend {
+  font-size: 12px;
 }
 
 #recaptcha_image{
