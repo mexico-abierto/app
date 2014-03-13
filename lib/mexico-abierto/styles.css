@@ -57,16 +57,22 @@ aside.nav-proposal .navlist li a .item-badges {
 }
 
 #footer-container {
+  color: #666;
   padding: 20px;
 }
 
 #footer-container div {
   font-size: 11px;
-  padding-bottom: 10px;
-  opacity: 0.5;
+  padding-top: 10px;
 }
 
-#footer-container img { width: 60% }
+#footer-container img.svg {
+  width: 60%;
+}
+
+#footer-container img.svg.mx_a {
+  margin-left: -12px;
+}
 
 aside.nav-proposal .navlist li {
   border: 0;
