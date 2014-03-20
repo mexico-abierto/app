@@ -1,0 +1,19 @@
+{
+  "name": "magnific-popup",
+  "repo": "dimsemenov/Magnific-Popup",
+  "description": "Light and responsive lightbox script with focus on performance.",
+  "version": "0.9.9",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "magnific-popup.css"
+  ],
+  "scripts": [
+    "jquery.magnific-popup.min.js",
+    "index.js"
+  ],
+  "main": "index.js"
+}
+

@@ -22,7 +22,8 @@
     "translations",
     "snapper",
     "flaticons",
-    "mexico-abierto"
+    "mexico-abierto",
+    "magnific-popup"
   ],
   "scripts": [ "boot.js" ],
   "styles": [ "boot.css" ],
