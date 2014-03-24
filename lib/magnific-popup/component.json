@@ -4,9 +4,7 @@
   "description": "Light and responsive lightbox script with focus on performance.",
   "version": "0.9.9",
   "keywords": [],
-  "dependencies": {
-    "component/jquery": "*"
-  },
+  "dependencies": {},
   "development": {},
   "license": "MIT",
   "styles": [
