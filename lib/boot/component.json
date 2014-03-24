@@ -22,7 +22,8 @@
     "translations",
     "snapper",
     "flaticons",
-    "mexico-abierto"
+    "mexico-abierto",
+    "magnific-popup"
   ],
   "scripts": [ "boot.js" ],
   "styles": [ "boot.css" ],
@@ -43,7 +44,8 @@
     "images/tags/justicia.svg",
     "images/tags/proteccion-y-uso-del-espacio-publico.svg",
     "images/tags/planeamiento-urbano.svg",
-    "images/dos-logo.svg"
+    "images/dos-logo.svg",
+    "images/flyer.jpg"
   ],
   "main": "boot.js"
 }
