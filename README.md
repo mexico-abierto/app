@@ -3,6 +3,6 @@ Debate público sobre la Política Nacional de Datos Abiertos en México. Powere
 
 
 ![][1]
-[1]: http://mexico-abierto.github.io/iniciativa-datos-abiertos/assets/img/dos-mx.png
+[1]: http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/dos-mx.png
 
 
