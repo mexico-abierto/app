@@ -24,7 +24,8 @@
     "flaticons",
     "mexico-abierto",
     "magnific-popup",
-    "youaretv"
+    "youaretv",
+    "404"
   ],
   "scripts": [ "boot.js" ],
   "styles": [ "boot.css" ],
