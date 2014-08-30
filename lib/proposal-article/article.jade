@@ -1,19 +1,21 @@
-- var closed = proposal.closed//proposal.closingAt && +new Date(proposal.closingAt) < Date.now()
+- var closed = proposal.closed
 .inner-container
-  div.alert.alert-dismissable.system-alert
-    button(type="button", class="close", data-dismiss="alert", aria-hidden="true")
-    div #{t('All data will expire on December 10, 2013')}
-    a.alert-link(href="http://bit.ly/pnda-borrador", target="_blank") #{t('Why?')}
+  - var learnMore = config['learn more url']
+  - if (learnMore)
+    div.alert.alert-warning.alert-dismissable.system-alert
+      button(type="button", class="close", data-dismiss="alert", aria-hidden="true")
+      span #{t('proposal-article.article.alert.text')}&nbsp;&nbsp;
+      a.alert-link(href=learnMore, target="_blank") #{t('proposal-article.article.alert.learn-more')}
 
 
-  article.proposal
+  article.proposal.commentable-container
     //- .meta-information
     //-   a.meta-item.meta-location(href="#") Buenos Aires, Argentina
     //-   small.meta-item.meta-timeago 10 days left
 
     .entry-tag(style="border-color: #{proposal.tag.color}")
 
-      img(src="/boot/images/tags/#{proposal.tag.hash}.svg", style="fill: white;")
+      img(src=tagImages[proposal.tag.image].url, style="fill: white;")
 
       svg(viewbox='0 0 126 144', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', xmlns:sketch='http://www.bohemiancoding.com/sketch/ns').hexagon
         title Hexagon
@@ -32,15 +34,20 @@
         - else
           span.meta-item.meta-timeago= t('Unknown closing date')
 
+    h1=proposal.mediaTitle
+    h3=proposal.title
     .entry-content
       p.summary!=proposal.summary
 
       .clauses
-        - var lines = clauses ? clauses : (proposal.essay || proposal.content || '').split('\n')
-        - if (lines.length)
-          p.clause!=truncate(lines[0], 230, '... ')
-            - if (lines[0].length > 230 || lines.length > 1)
-              a.read-more(href="#")= t('read more')
+        - if (clauses.length)
+          - each clause, i in clauses
+            - var classes = clause.centered ? ['text-center'] : []
+            - var text = (clause.clauseName ? clause.clauseName + ': ' : '') + clause.text
+            - if (i > 0) classes.push('hide')
+            p.clause.commentable-section(class=classes, data-section-id=clause.id)!=text
+          - if (clauses.length > 1)
+            a.read-more(href="#")= t('read more')
 
     //- Article external links
     .links

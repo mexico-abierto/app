@@ -1,15 +1,21 @@
 {
   "name": "DemocracyOS",
-  "version": "0.3.4",
+  "version": "0.7.5",
   "description": "An online space for deliberation and voting on political proposals. The software aims to stimulate better arguments and come to better rulings.",
-  "homepage": "http://democraciaenred.herokuapp.com/",
+  "homepage": "http://www.democracyos.org/",
   "keywords": [
     "democracy",
+    "democracyos",
     "liquid democracy",
     "partido de la red",
-    "democracia en red"
+    "democracia en red",
+    "net democracy",
+    "net party",
+    "online democracy",
+    "web democracy",
+    "change the tool"
   ],
-  "author": "Partido De La Red <cristian@partidodelared.org>",
+  "author": "Democracia en Red <speak@democracyos.org>",
   "contributors": [
     {
       "name": "Cristian Douce",
@@ -18,6 +24,14 @@
     {
       "name": "Ricardo Rauch",
       "email": "ricardo@gravityonmars.com"
+    },
+    {
+      "name": "Guido Vilariño",
+      "email": "gvilarino@gmail.com"
+    },
+    {
+      "name": "Sacha Lifszyc",
+      "email": "sacha.lifszyc@gmail.com"
     }
   ],
   "repository": {
@@ -35,6 +49,10 @@
     "nowww": "~1.1.2",
     "component": "~0.19.8",
     "component-builder": "~0.10.1",
+    "component-styl-plugin": "~1.1.1",
+    "rework-vars": "~2.0.3",
+    "rework-math": "~1.0.1",
+    "rework-shade": "~1.4.3",
     "passport": "~0.1.17",
     "passport-local": "~0.1.6",
     "passport-local-mongoose": "~0.2.4",
@@ -50,7 +68,11 @@
     "type-component": "0.0.1",
     "merge-util": "0.1.0",
     "node-path": "0.0.3",
+<<<<<<< HEAD
     "recaptcha": "1.2.0"
+=======
+    "strip": "0.0.7"
+>>>>>>> 0.7.5
   },
   "devDependencies": {},
   "main": "pdr",
