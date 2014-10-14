@@ -1,8 +1,12 @@
 .form-container.signup-container.small-container
   #signup-form
-    .title-page 
+    .title-page
+      .circle
+        i.icon-user
       h1= t('Signup with email')
-    form.form(action="/signup", method="post", role="form")
+    form.form(action='/signup', method="post", role="form", autovalidate='autovalidate', autosubmit='autosubmit')
+      - if (reference)
+        input(type='hidden', name='reference', value=reference)
       ul.form-errors
       .form-group
         input.form-control(type='text', id="firstName", name='firstName', tabindex=1, placeholder=t('Firstname'), autofocus)
@@ -34,4 +38,5 @@
         span.legend &nbsp;#{t('Keep me posted')}
       .form-group
         a.long-link.legend(href="http://apertura-entrada.herokuapp.com/privacidad" target="_blank")= t('Read our privacy terms')
+
 
