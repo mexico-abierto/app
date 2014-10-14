@@ -3,11 +3,13 @@
   "description": "Collection of laws",
   "dependencies": {
     "component/emitter": "*",
-    "visionmedia/debug": "*"
+    "visionmedia/debug": "0.7.4"
   },
-  "local": [
+  "locals": [
+    "citizen",
     "request",
-    "render"
+    "render",
+    "stateful"
   ],
   "scripts": [
     "laws.js",

@@ -1,0 +1,18 @@
+{
+  "name": "tag-images",
+  "description": "DemocracyOS Tag images collection",
+  "images": [
+    "images/arts.svg",
+    "images/agora.svg",
+    "images/scale.svg",
+    "images/signs.svg",
+    "images/parks.svg",
+    "images/police.svg",
+    "images/people.svg",
+    "images/transportation.svg"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js"
+}

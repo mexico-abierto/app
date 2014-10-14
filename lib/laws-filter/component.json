@@ -3,16 +3,17 @@
   "description": "Filter for laws. Saves state in session or localStorage if availble",
   "dependencies": {
   	"component/emitter": "1.0.1",
-  	"visionmedia/debug": "*",
+  	"visionmedia/debug": "0.7.4",
   	"cristiandouce/merge-util": "*",
     "component/t": "*",
   	"component/type": "*",
   	"component/to-function": "*"
   	},
-  "local": [
+  "locals": [
     "citizen",
     "laws",
-    "store"
+    "store",
+    "stateful"
   ],
   "scripts": [ "laws-filter.js", "sorts.js" ],
   "main": "laws-filter.js"
