@@ -1,0 +1,193 @@
+/* México-abierto styles go here */
+
+/* Main style */
+
+a {
+  color: #32F0E5;
+}
+
+a:hover, a:focus,
+a.long-link:hover, a.long-link:focus {
+  color: #333333;
+}
+
+a.long-link {
+  color: #21CCCA;
+}
+
+/* Navbar */
+
+#mx_a header.app-header {
+  background-color: black;
+}
+
+header.app-header h1 {
+  margin: 0;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+header.app-header h1 .logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+#mx_a #logo {
+  font-family: "Abel", "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+aside.nav-proposal .navlist li a .item-badges {
+  display: none;
+}
+
+/* Sidebar */
+
+#mx_a .entry-tag,
+#mx_a .item-tag {
+  display: none;
+}
+
+#filter-container {
+  display: none;
+}
+
+#list-container {
+  width: 100%;
+}
+
+#footer-container {
+  color: #666;
+  padding: 20px;
+}
+
+#footer-container div {
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+#footer-container img.svg {
+  width: 60%;
+}
+
+#footer-container img.svg.mx_a {
+  margin-left: -12px;
+}
+
+aside.nav-proposal .navlist li {
+  border: 0;
+}
+
+aside.nav-proposal .navlist li a {
+  min-height: inherit;
+  padding: 20px;
+}
+
+/* Content */
+
+.small-container {
+  max-width: 320px;
+}
+
+#mx_a,
+#mx_a h1,
+#mx_a h2,
+#mx_a h3,
+#mx_a h4,
+#mx_a h5 {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+
+.alert {
+  background-color: #21ccca;
+  border-radius: 0;
+}
+
+.alert-link {
+  color: #00FFFF;
+}
+
+.dropdown-department {
+  background-color: #bdc3c7;
+}
+
+body {
+  color: #4d4d4d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #21ccca;
+}
+
+#mx_a .entry-content img {
+  padding: 10px 0;
+}
+
+#mx_a .entry-content img, video {
+  width: 100%;
+}
+
+/* Signin & Signup */
+
+form input, .form-control, .btn {
+  border-radius: 0;
+}
+
+form input[type="submit"] {
+  background-color: #21CCCA;
+  border-color: inherit;
+  font-weight: normal;
+}
+
+form input[type="submit"]:focus,
+form input[type="submit"]:hover {
+  background-color: #333333;
+}
+
+.form-container {
+  padding-top: 20px;
+}
+
+.legend {
+  font-size: 12px;
+}
+
+#recaptcha_image{
+  margin-bottom: 16px;
+}
+
+.recaptcha_controls {
+  padding-top: 16px;
+  text-align: right;
+}
+
+.recaptcha_controls li {
+  display: inline;
+  list-style-type: none;
+}
+
+.recaptcha_controls i {
+  color: #21CCCA;
+}
+
+.recaptcha_controls i:hover {
+  color: #333333;
+}
+
+.flaticon-arrows64:before {
+  font-size: 24px;
+}
+
+/* Responsive design */
+
+@media screen and (min-width: 700px) {
+  #list-container {
+    margin: 115px 0;
+  }
+}
+
+iframe#youaretv {
+  display: block;
+  margin: 0 auto;
+}
+

@@ -8,7 +8,10 @@
   "locals": [
     "boot"
   ],
-  "dependencies": {
-    "component/bus": "0.0.2"
-  }
+  "dependencies": { },
+  "remotes": [
+    "https://raw.githubusercontent.com",
+    "https://cdn.rawgit.com",
+    "https://rawgit.com"
+  ]
 }

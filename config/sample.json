@@ -4,23 +4,7 @@
   "privatePort": 3000,
   "publicPort": 3000,
   "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
-  "client": [
-    "protocol",
-    "host",
-    "publicPort",
-    "env",
-    "logo",
-    "favicon",
-    "organization name",
-    "organization url",
-    "learn more url",
-    "google analytics tracking id",
-    "comments per page",
-    "faq",
-    "tos",
-    "pp",
-    "glossary"
-  ],
+  "client": [ "protocol", "host", "publicPort", "env", "logo", "favicon", "organization name", "organization url", "learn more url", "google analytics tracking id", "comments per page", "faq", "tos", "pp", "glossary", "recaptchaPublicKey" ],
   "auth": {
     "basic": {
       "username": "",
@@ -64,5 +48,7 @@
   "faq": false,
   "tos": false,
   "pp": false,
-  "glossary": false
+  "glossary": false,
+  "recaptchaPublicKey": "",
+  "recaptchaPrivateKey": ""
 }

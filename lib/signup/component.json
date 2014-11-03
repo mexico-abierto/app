@@ -2,6 +2,7 @@
   "name": "signup",
   "description": "Signup page",
   "dependencies": {
+    "component/t": "1.0.0",
     "component/domify": "1.2.0",
     "component/events": "1.0.9",
     "component/emitter": "1.1.3",
@@ -22,7 +23,8 @@
     "title",
     "render",
     "form-view",
-    "view"
+    "view",
+    "config"
   ],
   "scripts": [ "signup.js", "signup-form-view.js", "email-validation-form-view.js", "resend-validation-email-form-view.js", "email-validation-complete-view.js" ],
   "styles": [ "signup.css" ],

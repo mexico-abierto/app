@@ -1,0 +1,30 @@
+{
+  "name": "youaretv",
+  "repo": "rodowi/youaretv",
+  "description": "YouAre.TV is the next generation of online video -- live and truly interactive.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "visionmedia/jade": "1.1.5",
+    "visionmedia/page.js": "1.3.7",
+    "yields/empty": "0.0.1",
+    "cristiandouce/query": "0.0.1",
+    "component/t": "1.0.0"
+  },
+  "local": [
+    "title",
+    "render"
+  ],
+  "development": {},
+  "license": "MIT",
+  "main": "youaretv.js",
+  "scripts": [
+    "youaretv.js"
+  ],
+  "templates": [
+    "template.jade"
+  ],
+  "styles": [
+    "youaretv.css"
+  ]
+}

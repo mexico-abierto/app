@@ -1,4 +1,4 @@
-.signup-container.inner-container.small-container
+.form-container.signup-container.small-container
   #signup-form
     .title-page
       .circle
@@ -9,33 +9,33 @@
         input(type='hidden', name='reference', value=reference)
       ul.form-errors
       .form-group
-        label= t('Email')
-        input.form-control(type='email', name='email', tabindex=1, placeholder=t('example@email.com'), validate='required email')
+        input.form-control(type='text', id="firstName", name='firstName', tabindex=1, placeholder=t('Firstname'), autofocus)
       .form-group
-        label #{t('Your firstname')}
-        input.form-control(type='text', id='firstName', name='firstName', tabindex=2, placeholder=t('Firstname'), validate='required firstname')
+        input.form-control(type='email', name='email', tabindex=2, placeholder=t('example@email.com'))
       .form-group
-        label #{t('Your lastname')}
-        input.form-control(type='text', id='lastName', name='lastName', tabindex=3, placeholder=t('Lastname'), validate='required lastname')
+        input.form-control(type='password', name='password', tabindex=3, placeholder=t('Password'))
       .form-group
-        label= t('Password')
-        input.form-control(type='password', name='password', tabindex=4, placeholder=t('Password'), validate='required min-length:6')
+        #captcha-container
+        #recaptcha_widget
+          #recaptcha_image
+          input.form-control#recaptcha_response_field(type="text", name="recaptcha_response_field", tabindex=4, placeholder=t('Type the words shown in the image'))
+          ul.recaptcha_controls
+            li#recaptcha-reload
+              a(href="javascript:Recaptcha.reload()")
+                i.flaticon-arrows64
+            li.recaptcha_only_if_image
+              a(href="javascript:Recaptcha.switch_type('audio')")
+                i.flaticon-raise
+            li.recaptcha_only_if_audio
+              a(href="javascript:Recaptcha.switch_type('image')")
+                i.flaticon-typografic
+            li#recaptcha-help
+              a(href="javascript:Recaptcha.showhelp()")
+                i.flaticon-help
+      .form-group: input.btn.btn-block.btn-primary.btn-lg(type='submit', tabindex=5, value=t('Signup now!'))
       .form-group
-        label= t('Re-type password')
-        input.form-control(type='password', name='re_password', tabindex=5, placeholder=t('Repeat Password'), validate='required same:password')
-      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=6)=t('Signup now!')
+        input(type="checkbox" name="subscribed", tabindex=6)
+        span.legend &nbsp;#{t('Keep me posted')}
       .form-group
-        - var tos = config['tos'];
-        - var pp = config['pp'];
-        - if (tos || pp)
-          p.help-block.text-center=t('By signing up you are accepting our')
-          ul.text-center
-            - if (pp)
-              li: a(href='/help/terms-of-service', target='_blank')=t('help.tos.title')
-            - if (tos)
-              li: a(href='/help/privacy-policy', target='_blank')=t('help.pp.title')
-  #signup-message.hide
-    h1 Welcome
-    p.lead.text-muted #{t('Your sign up data was received. We sent you an email so you can validate your email address.')}.
-    p.lead.text-muted= t('Please check your email (remember to check your spam folder too) and click on the link supplied on the email.')
-    a(href='/signup/resend-validation-email')= t('Resend validation email')
+        a.long-link.legend(href="http://datos.gob.mx/privacidad" target="_blank")= t('Read our privacy terms')
+

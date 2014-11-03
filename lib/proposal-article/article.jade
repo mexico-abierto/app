@@ -7,7 +7,6 @@
       span #{t('proposal-article.article.alert.text')}&nbsp;&nbsp;
       a.alert-link(href=learnMore, target="_blank") #{t('proposal-article.article.alert.learn-more')}
 
-
   article.proposal.commentable-container
     //- .meta-information
     //-   a.meta-item.meta-location(href="#") Buenos Aires, Argentina
@@ -50,7 +49,6 @@
           - if (p != '')
             p.commentable-section(data-section-id=proposal.id + '-' + i)!=p
 
-
       .clauses
         - if (clauses.length)
           - each clause, i in clauses
@@ -87,6 +85,6 @@
 
     //- Article share links
     .share-links
-      a(target="_blank", href="http://www.facebook.com/sharer.php?u=#{baseUrl}/law/#{proposal.id}").flaticon.social.facebook  
-      a(target="_blank", href="http://twitter.com/share?text=#{proposal.mediaTitle}&url=#{baseUrl}/law/#{proposal.id}").flaticon.social.twitter  
-      a(target="_blank", href="https://plus.google.com/share?url=#{baseUrl}/law/#{proposal.id}").flaticon.social.google-plus 
+      a(target="_blank", href="http://www.facebook.com/sharer.php?u=#{baseUrl}").flaticon.social.facebook  
+      a(target="_blank", href="http://twitter.com/share?text=#{t('Join our initiative')}&url=#{baseUrl}").flaticon.social.twitter  
+      a(target="_blank", href="https://plus.google.com/share?url=#{baseUrl}").flaticon.social.google-plus 

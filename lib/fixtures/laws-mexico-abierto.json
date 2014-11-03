@@ -1,0 +1,56 @@
+[
+{
+    "lawId": "01-introducción"
+  , "tag": "datos-abiertos"
+  , "mediaTitle": "Introducción"
+  , "source": "http://bit.ly/pnda-borrador"
+  , "closingAt": "2014-03-31T23:59:59.001Z"
+  , "summary": "<h1>Introducción</h1><p><i>Esta es la primera política colaborativa que se abre a comentarios y edición de la ciudadanía. ¡Participa! Tu opinión se tomará en cuenta.</i></p><p>Un Gobierno Abierto implica compromiso, colaboración y corresponsabilidad permanente entre el gobierno y todos los sectores de la sociedad. Por eso, abrimos la Política Nacional de Datos Abiertos a revisión y comentarios públicos. Estos comentarios serán analizados por nuestro Consejo Consultivo de Datos Abiertos, que incluye representantes del sector emprendedor, académico y de organizaciones civiles, para incluir aquellos que incrementen el valor de la política y se puedan llevar a cabo de acuerdo con la normatividad vigente.</p><p>Este proceso estará abierto hasta el 31 de marzo de 2014 y será completado por foros de consulta ciudadana que se llevarán a cabo en diversas instituciones académicas del país y cuyas fechas se anunciarán en este mismo portal.</p><video controls height='440' poster='http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/video-portada.jpg' width='720'><source src='https://s3.amazonaws.com/mx_a/mexico-abierto.mp4' type='video/mp4'></source><source src='https://s3.amazonaws.com/mx_a/mexico-abierto.webm' type='video/webm'></source><source src='https://s3.amazonaws.com/mx_a/mexico-abierto.ogv' type='video/ogg'></source><iframe alt='¿qué son los datos abiertos?' height='360' src='https://docs.google.com/file/d/0BwcNOonIaGb7eTF0VGs0VUVEU1U/preview' width='640'></iframe></video>"
+  , "clauses": []
+},
+{
+    "lawId": "02-objetivos"
+  , "tag": "datos-abiertos"
+  , "mediaTitle": "Objetivos"
+  , "source": "http://bit.ly/pnda-borrador"
+  , "closingAt": "2014-03-31T23:59:59.001Z"
+  , "summary": "<h1>Objetivos de la Política Nacional de Datos Abiertos</h1><p><i>Crear valor con datos abiertos para transformar México</i></p><p>El objetivo de esta política es abrir todas las bases de datos públicas y así permitir que éstas se conviertan en herramientas que faciliten el crecimiento económico, fortalezcan la competitividad y promuevan la innovación. Esto crea valor y beneficios para todos los sectores de la sociedad, al tiempo que permite mejorar la prestación de servicios gubernamentales, incrementar la transparencia y rendición de cuentas, y conducir a mayor eficiencia gubernamental; logrando así una mejor gobernanza para el país.</p>"
+  , "clauses": []
+},
+{
+    "lawId": "03-datos-abiertos"
+  , "tag": "datos-abiertos"
+  , "mediaTitle": "Datos Abiertos"
+  , "source": "http://bit.ly/pnda-borrador"
+  , "closingAt": "2014-03-31T23:59:59.001Z"
+  , "summary": "<h1>Definición de datos abiertos</h1><p><i>Cinco características para entender qué son datos abiertos</i></p><p>Para ser considerados datos abiertos, las bases de datos deberán contar con las siguientes características mínimas:</p><img src='http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/diagramaPNDA.png' />"
+  , "clauses": []
+},
+{
+    "lawId": "04-arquitectura-institucional"
+  , "tag": "datos-abiertos"
+  , "mediaTitle": "Arquitectura institucional"
+  , "source": "http://bit.ly/pnda-borrador"
+  , "closingAt": "2014-03-31T23:59:59.001Z"
+  , "summary": "<h1>Arquitectura institucional</h1><p><i>Estableceremos consejos, comités y canales de colaboración entre gobierno y sociedad para elaborar, implementar y evaluar esta política.</i></p><p>Cada entidad del Gobierno de la República tendrá funcionarios responsables de implementar esta política, que serán apoyados por expertos en asuntos legales, de seguridad y arquitectura de información.</p><p>De igual manera se establecerán mecanismos de cooperación dentro del gobierno y con la sociedad para poder trabajar de manera conjunta, co-participativa y co-responsable en la elaboración, implementación y evaluación de la Política de Datos Abiertos.</p><a href='http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/mecanismos2.png' target='_blank'><img src='http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/mecanismos2.png' /></a>"
+  , "clauses": []
+},
+{
+    "lawId": "05-publicación-y-privacidad"
+  , "tag": "datos-abiertos"
+  , "mediaTitle": "Publicación y privacidad"
+  , "source": "http://bit.ly/pnda-borrador"
+  , "closingAt": "2014-03-31T23:59:59.001Z"
+  , "summary": "<h1>Proceso de publicación y protección a los datos personales</h1><p><i>El proceso de publicación garantizará que los datos sean prioritarios y de calidad, respondan a la demanda ciudadana, y se proteja la privacidad y la confidencialidad.</i></p><p>El proceso de apertura tiene 5 pasos para que las entidades liberen datos abiertos de manera sencilla:<ol><li>Priorizar las bases de datos que se publicarán, tomando en cuenta la demanda de la ciudadanía, su valor, y que actualmente se encuentren listas para su liberación.</li><li>Calendarizar la liberación de las bases de datos en cada entidad o dependencia.</li><li>Definir proyectos, dentro y fuera del gobierno, para utilizar datos abiertos.</li><li>Crear un inventario exhaustivo, de manera gradual, de todas las bases de datos que el gobierno tiene en su responsabilidad.</li><li>Publicar las bases de datos, asegurando que éstas se encuentren en formatos y estándares de datos abiertos, con la calidad necesaria para su uso.</li></ol></p><p>Durante el proceso de preparación y publicación de datos abiertos, se implementarán mecanismos diseñados para proteger la privacidad de los ciudadanos y asegurar la confidencialidad de la información, según la legislación vigente.</p><a href='http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/adela.jpg' target='_blank'><img alt='administrador de la apertura' src='http://mxabierto.github.io/iniciativa-datos-abiertos/assets/img/adela.jpg' /></a>"
+  , "clauses": []
+},
+{
+    "lawId": "06-fomento-al-uso"
+  , "tag": "datos-abiertos"
+  , "mediaTitle": "Fomento al uso"
+  , "source": "http://bit.ly/pnda-borrador"
+  , "closingAt": "2014-03-31T23:59:59.001Z"
+  , "summary": "<h1>Mecanismos de fomento al uso, reuso y redistribución</h1><p><i>En <a href='http://datos.gob.mx' target='_blank'>datos.gob.mx</a> podrás consultar y aprovechar los datos del gobierno a través de un catálogo y herramientas de visualización.</i></p><p>Los datos abiertos serán publicados en el portal <a href='http://datos.gob.mx' target='_blank'>datos.gob.mx</a>. Este portal contendrá un catálogo de todos los datos de la Administración Pública Federal, así como herramientas de visualización para utilizarlos. También tendrá mecanismos  de consulta e interacción ciudadana para identificar los datos con mayor valor para la sociedad.</p><p>Las dependencias y entidades definirán proyectos de capacitación y uso de datos abiertos, y podrán trabajar de manera conjunta con los sectores interesados de la sociedad para llevar a cabo acciones de co-participación y responsabilidad conjunta.</p><p>Para fomentar lo anterior, las dependencias y entidades podrán utilizar sus presupuestos enfocadas a innovación, uso de tecnologías o capacitación de recursos humanos; y podrán buscar recursos de fondos, organizaciones u otros actores relevantes para fomentar  estas acciones en beneficio de todos.</p>"
+  , "clauses": []
+}
+]

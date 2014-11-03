@@ -1,8 +1,19 @@
 html
   head
-    meta(property='og:title', content='#{law.mediaTitle}')
+    meta(property='og:title', content='#{config.socialshare.siteName}')
     meta(property='og:type', content='website')
-    meta(property='og:url', content='#{baseUrl}/law/#{law.id}')
-    meta(property='og:image', content='#{config.socialshare.image}')
+    meta(property='og:url', content='#{baseUrl}')
+    - each image in images
+      - if (/^https/gi.test(image))
+        meta(property='og:image', content=image.replace(/^https/gi, 'http'))
+        meta(property='og:image:secure_url', content=image)
+      - else
+        meta(property='og:image', content=image)
+    - if (/^https/gi.test(config.socialshare.image))
+      meta(property='og:image', content=config.socialshare.image.replace(/^https/, 'http'))
+      meta(property='og:image:secure_url', content=config.socialshare.image)
+    - else
+      meta(property='og:image', content=config.socialshare.image)
     meta(property='og:site_name', content='#{config.socialshare.siteName}')
-    meta(property='og:description', content=strip(law.summary))
+    meta(property='og:description', content='#{config.socialshare.siteDescription}')
+
