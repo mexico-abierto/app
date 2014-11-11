@@ -1,0 +1,24 @@
+{
+  "name": "header",
+  "description": "header component",
+  "dependencies": {
+    "slifszyc/query": "0.0.3",
+    "visionmedia/debug": "0.7.4",
+    "visionmedia/jade": "1.1.5"
+    },
+  "locals": [
+    "citizen",
+    "feedback",
+    "render",
+    "snapper",
+    "user-badge",
+    "view"
+  ],
+  "scripts": [
+    "index.js",
+    "view.js"
+  ],
+  "styles": [ "styles.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "index.js"
+}
