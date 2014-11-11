@@ -15,5 +15,4 @@ html
     - else
       meta(property='og:image', content=config.socialshare.image)
     meta(property='og:site_name', content='#{config.socialshare.siteName}')
-    meta(property='og:description', content='#{config.socialshare.siteDescription}')
-
+    meta(property='og:description', content=strip(law.summary))

@@ -1,28 +1,8 @@
 #content-404
-p(style='text-align: center; line-height: 20.25pt; padding:100px 10px 10px 10px; ')
-          span(style='font-family: "Helvetica","sans-serif"; color: #4d4d4d;')
-            | En
-            span  
-            a(href='http://datos.gob.mx/', target='_blank')
-              span(style='color: #32f0e5;') datos.gob.mx
-            span
-              | la población
-              | podrá
-              | consultar y aprovechar los datos abiertos del gobierno.
-
-    p(style='text-align: center; line-height: 20.25pt; padding:10px 10px 10px 10px;  ')
-        span(style='font-family: "Helvetica","sans-serif"; color: #4d4d4d;')
-          | Los datos abiertos publicados en 
-          span
-          a(href='http://datos.gob.mx/', target='_blank')
-            span(style='color: #32f0e5;') datos.gob.mx
-
-          |  conformarán, de manera incremental, el catálogo de datos abiertos de toda la Administración Pública Federal, <br/>
-          | así como herramientas de visualización
-          | para fomentar su uso, reuso y redistribución para todos los Mexicanos.
-
-
-    p(style='text-align: center;')
-      span
-        b
-          span(style='font-family: "Helvetica","sans-serif"; color: #4d4d4d;') ¡Espéralo!
+  .container-404
+    img(src=config['logo'])
+    p.note 404
+    h1.title=t('This page does not exist')
+    p.goback
+      =t('go back to') + ' '
+      a(href='/', title=t('Go back to DemocracyOS')) DemocracyOS
