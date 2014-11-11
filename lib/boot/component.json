@@ -26,7 +26,10 @@
     "header",
     "logout",
     "help",
-    "404"
+    "404",
+    "mexico-abierto",
+    "magnific-popup",
+    "youaretv"
   ],
   "scripts": [ "boot.js" ],
   "styles": [ "boot.styl", "boot-responsive.styl" ],
